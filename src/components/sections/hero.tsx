@@ -4,7 +4,7 @@ export default function HeroHeader() {
     return (
         <>
             <Container>
-                <section className="mt-32 mb-48" >
+                <section className="mt-32" >
                     <h1 className="relative max-w-3xl text-5xl font-semibold text-center sm:text-left md:text-5xl lg:text-6xl u-text-gray-900 flex-wrap">
                         Unveiling <span className="">Mouayed</span>&lsquo;s Web Universe
                     </h1>
