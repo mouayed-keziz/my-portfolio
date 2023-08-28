@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import React, { ReactNode } from 'react';
 
 interface ContainerProps {
@@ -42,8 +43,10 @@ const Container: React.FC<ContainerProps> = ({ size = '2xl', children, className
         margin: '0 auto',
     };
 
+
+
     return (
-        <div style={containerStyle} className={className}>
+        <div style={containerStyle} className={cn("px-4 sm:px-6 lg:px-8", className)}>
             {children}
         </div>
     );
