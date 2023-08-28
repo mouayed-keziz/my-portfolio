@@ -38,7 +38,8 @@ export default function Navbar() {
                     <div className="text-lg sm:text-xl md:text-2xl font-semibold flex justify-start items-center gap-4" >
                         <MobileDrawer />
                         <Code2 className="w-8 h-8" />
-                        <p>WEBDEV-MOUAYED</p>
+                        <p className="hidden sm:block text-center" >MOUAYED - Web Developer</p>
+                        <p className="block sm:hidden text-center" >KEZIZ MOUAYED</p>
                     </div>
                     <div className="flex items-center justify-end" >
                         <ThemeToggle />
